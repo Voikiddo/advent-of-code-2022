@@ -1,4 +1,6 @@
 export module day_1 {
+    console.log("Executing codes for day 1...")
+
     const fs = require('fs')
     const inputFile:string = fs.readFileSync('./day1/input.txt', 'utf8')
     const inputArray = inputFile.split("\n");
